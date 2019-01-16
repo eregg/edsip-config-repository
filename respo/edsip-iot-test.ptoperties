@@ -1,12 +1,12 @@
-eureka.client.serviceUrl.defaultZone= 172.16.20.169:7777/eureka/
-spring.application.name = thoth-robot-ms
+eureka.client.serviceUrl.defaultZone=localhost:7777/eureka/
+spring.application.name = edsip-iot
 server.port= 8880
 management.security.enabled=false
 
-# Êý¾Ý¿âÅäÖÃ
-spring.datasource.url=jdbc:mysql://localhost:3306/test_thoth_basic_dev?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
+# Mysql
+spring.datasource.url=jdbc:mysql://localhost:3306/bjb_edsip?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
 spring.datasource.username=root
-spring.datasource.password=123456
+spring.datasource.password=root
 spring.datasource.driver-class-name=com.mysql.jdbc.Driver
 mybatis.mapperLocations=classpath*:/mapper/*.xml
 

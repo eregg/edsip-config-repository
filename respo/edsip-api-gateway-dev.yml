@@ -1,9 +1,1 @@
-zuul:
-  #全部服务忽略敏感头(全部服务都可以传递cookie)
-  sensitive-headers: 
-management:
-  security:
-    enabled: false    
-ribbon:
-  ReadTimeout: 5000
-  SocketTimeout: 5000
+
